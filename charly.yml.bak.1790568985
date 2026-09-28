@@ -1,5 +1,7 @@
+version: 2026.232.0520
 dbus:
     candy:
+        version: 2026.144.1443
         description: |
             A supervisord-managed D-Bus session bus exported at a unix-socket address for in-container clients
             Installs the distro D-Bus package (the dbus-daemon binary) and runs a
