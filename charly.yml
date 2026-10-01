@@ -11,7 +11,7 @@ dbus:
             providing package installed at build scope, and at deploy scope the
             session-bus address env var exported plus the dbus service running.
         require:
-            - '@github.com/opencharly/layer-supervisord:v2026.240.0121'
+            - '@github.com/opencharly/layer-supervisord:v2026.271.1817'
         env:
             DBUS_SESSION_BUS_ADDRESS: "unix:path=/tmp/dbus-session"
         distro:
